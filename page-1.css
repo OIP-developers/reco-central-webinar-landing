@@ -272,9 +272,10 @@ section { padding: 80px 0; }
     .form-benefits li i { font-size: 0.573vw; }
     .ghl-form-box {
         border: 0.052vw solid rgba(252, 185, 0, 0.50);
-        border-top: 3px solid #fcb900;
+        border-top: 0.156vw solid #fcb900;
         padding: 2.083vw 1.823vw;
         border-radius: 0.625vw;
+        box-shadow: 0 0 2.604vw rgba(252,185,0,0.15), 0 0.521vw 2.083vw rgba(0,0,0,0.7);
     }
     .ghl-form-box h3 { 
         font-size: 0.938vw; 
@@ -284,7 +285,7 @@ section { padding: 80px 0; }
         font-size: 0.573vw; 
         margin-bottom: 1.302vw; 
     }
-    .ghl-placeholder .fake-input { padding: 0.677vw 0.781vw; font-size: 0.625vw; margin-bottom: 0.625vw; border-radius: 0.313vw; }
+    .ghl-placeholder .fake-input { padding: 0.677vw 0.781vw; font-size: 0.625vw; margin-bottom: 0.625vw; border-radius: 0.313vw; border: 0.052vw solid rgba(252,185,0,0.40); }
     .form-note { font-size: 0.521vw; margin-top: 0.781vw; }
     .footer { padding: 2.083vw 0 1.302vw; }
     .footer-top { margin-bottom: 1.302vw; }
