@@ -140,12 +140,15 @@ section { padding: 80px 0; }
 .form-benefits li { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-size: 0.9rem; color: var(--text-light); }
 .form-benefits li i { color: var(--primary-gold); font-size: 0.85rem; }
 .ghl-form-box {
-    background: linear-gradient(160deg, rgba(22,16,0,0.96) 0%, rgba(14,10,0,0.98) 100%);
+    background: linear-gradient(160deg, #160f00 0%, #0d0900 100%);
     border: 1px solid rgba(252, 185, 0, 0.50);
     border-top: 3px solid #fcb900;
     border-radius: 12px;
     padding: 40px 35px;
     box-shadow: 0 0 50px rgba(252,185,0,0.15), 0 10px 40px rgba(0,0,0,0.7);
+    position: relative;
+    z-index: 2;
+    isolation: isolate;
 }
 .ghl-form-box h3 { 
     font-size: 1.3rem; 
